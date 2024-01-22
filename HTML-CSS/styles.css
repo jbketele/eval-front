@@ -1,0 +1,121 @@
+body {
+    margin: 0%;
+}
+
+header {
+    background-image: url(sources/img/Polynesie-1680x720.jpg);
+    background-size: cover;
+    width: 100vw;
+    color: white;
+    height: 480px;
+}
+
+.header-content {
+    backdrop-filter: contrast(0.5);
+    height: 88%;
+}
+
+nav {
+    display: flex;
+}
+
+
+.logo-header {
+    width: 10%;
+    float: left;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+h1 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.tampon {
+    margin-left: 50%;
+}
+
+.fin-header {
+    display: flex;
+    align-items: flex-end;
+    backdrop-filter: brightness(0.5);
+    padding: 1.5%;
+}
+
+select {
+    background-color: grey;
+    color: white;
+    height: 30px;
+    width: 200px;
+}
+
+#place {
+    margin-left: 2%;
+}
+
+.btn {
+    float: right;
+    background-color: darkgoldenrod;
+    color: white;
+    margin-left: 50%;
+    height: 30px;
+}
+
+.main {
+    background-image: url(sources/img/background-spiral.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cadre {
+    padding: 5%;
+}
+
+.paragraphes {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+
+.cards {
+    text-align: left;
+    margin-bottom: 10%;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-body {
+    padding-left: 5%;
+}
+
+.cardss {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    margin-left: 15%;
+    margin-right: auto;
+    border: grey solid 0.5px;
+    width: 90%;
+}
+
+footer {
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+}
